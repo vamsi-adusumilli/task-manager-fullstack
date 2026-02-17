@@ -1,0 +1,7 @@
+/target/
+/node_modules/
+/task-frontend/node_modules/
+.mvn/
+.idea/
+.class
+.log
