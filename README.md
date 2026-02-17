@@ -110,7 +110,14 @@ The backend exposes a RESTful API. You can test these via the Swagger UI at `htt
 * **CORS**: Configured to allow communication specifically between the React frontend (port 5173) and the Spring Boot backend (port 8080).
 
 ---
-
+## 📈 Scalability & Future Improvements
+To ensure this system can handle high traffic and a growing user base, the following enhancements are planned:
+- **Redis Caching**: Implement caching for frequently accessed task lists to reduce database load.
+- **Microservices**: Decouple the Auth service from the Task service for independent scaling.
+- **Load Balancing**: Deploy multiple instances of the backend using Nginx or AWS ELB.
+- **Dockerization**: Containerize both applications for consistent deployment across environments.
+- **Search Optimization**: Integrate Elasticsearch for high-speed task searching and filtering.
+  
 ## 👨‍💻 Developed By
 
 * **Vamsi Krishna Adusumilli**
